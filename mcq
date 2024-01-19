@@ -1,0 +1,85 @@
+package Practising;
+import java.util.Scanner;
+
+public class Multichoicequestion {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		Scanner scn=new Scanner(System.in);
+		   System.out.println("MCQ questions related to java");
+		   System.out.println("Kindly use small case letter");
+	       
+       System.out.println("1. Who invented Java Programming ?");
+       System.out.println("a) Guido van Rossum");
+       System.out.println("b) James Gosling");
+       System.out.println("c) Dennis Ritchie ");
+       System.out.println("d) Bjarne Stroustrup");
+       System.out.println("enter a option");
+       char ch1=scn.next().charAt(0);
+       if(ch1=='b')
+       {
+    	   System.out.println("correct answer");
+    	   
+       }
+       else
+       {
+    	   System.out.println("not correct answer");
+       }
+       
+       System.out.println("2.Which component is used to compile, debug and execute the java programs ?");
+       System.out.println("a) JRE");
+       System.out.println("b) JIT");
+       System.out.println("c) JDK ");
+       System.out.println("d) JVM");
+       System.out.println("enter a option");
+       char ch2=scn.next().charAt(0);
+       if(ch2=='c')
+       {
+    	   System.out.println("correct answer");
+    	   
+       }
+       else
+       {
+    	   System.out.println("not correct answer");
+       }
+       
+       System.out.println("3.Which of these cannot be used for a variable name in Java ?");
+       System.out.println("a) identifier & keyword");
+       System.out.println("b) identifier");
+       System.out.println("c) keyword  ");
+       System.out.println("d)none of the mentioned ");
+       System.out.println("enter a option");
+       char ch3=scn.next().charAt(0);
+       if(ch3=='c')
+       {
+    	   System.out.println("correct answer");
+    	   
+       }
+       else
+       {
+    	   System.out.println("not correct answer");
+       }
+       
+       System.out.println("4.What is the extension of java code files? ");
+       System.out.println("a) js");
+       System.out.println("b) .txt ");
+       System.out.println("c) .class");
+       System.out.println("d).java");
+       System.out.println("enter a option");
+       char ch4=scn.next().charAt(0);
+       if(ch4=='d')
+       {
+    	   System.out.println("correct answer");
+    	   
+       }
+       else
+       {
+    	   System.out.println("not correct answer");
+       }
+       
+       
+       
+	}
+
+}
